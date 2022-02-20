@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Main {
+  margin: 40px;
+}
+.math {
+  margin: 20px;
+}
+#fnaa {
+  padding: 7px 20px;
+  margin: 10px 30px;
+  background-color: rgb(243, 241, 241);
+}
+
+#fnbbb {
+  padding: 7px 20px;
+  margin: 10px 30px;
+  background-color: rgb(241, 240, 240);
+}
+#btn {
+  padding: 7px 20px;
+  margin: 10px;
+}
+
+#Result {
+  margin-top: -30px;
+}

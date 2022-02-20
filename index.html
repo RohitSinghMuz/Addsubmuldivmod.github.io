@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<script>
+    function fn1() {
+        var a = document.getElementById('fnaa').value;
+        var b = document.getElementById('fnbbb').value;
+        document.getElementById('Result').innerHTML = (parseInt(a) + parseInt(b));
+    }
+    function fn2() {
+        var a = document.getElementById('fnaa').value;
+        var b = document.getElementById('fnbbb').value;
+        document.getElementById('Result').innerHTML = (a - b);
+    }
+    function fn3() {
+        var a = document.getElementById('fnaa').value;
+        var b = document.getElementById('fnbbb').value;
+        document.getElementById('Result').innerHTML = (a * b);
+    }
+    function fn4() {
+        var a = document.getElementById('fnaa').value;
+        var b = document.getElementById('fnbbb').value;
+        document.getElementById('Result').innerHTML = (a / b);
+    }
+    function fn5() {
+        var a = document.getElementById('fnaa').value;
+        var b = document.getElementById('fnbbb').value;
+        document.getElementById('Result').innerHTML = (a % b);
+    }
+
+
+
+</script>
+
+
+<body>
+    <div class="Main">
+        <input type="number" value=" " placeholder="Enter number1" id="fnaa">
+        <input type="number" value=" " placeholder="Enter number2" id="fnbbb">
+        <br>
+        <button type="button" id="btn" value="Addition" onclick="return fn1()"> Addition </button>
+
+        <button type="button" id="btn" name="btn1" onclick="fn2()">Substrction</button>
+
+        <button type="button" id="btn" name="btn1" onclick="fn3()"> Multiplication</button>
+
+        <button type="button" id="btn" name="btn1" onclick="fn4()">Division </button>
+        <button type="button" id="btn" name="btn1" onclick="fn5()">Modulos </button>
+        <span id="Result">Result = </span>
+
+    </div>
+
+</body>
+
+</html>
